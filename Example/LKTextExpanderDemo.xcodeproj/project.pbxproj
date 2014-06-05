@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CCF55B8B9A4A04A0B097B3 /* libPods-LKTextExpanderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE0D6469E434B6C8131D7F6 /* libPods-LKTextExpanderDemo.a */; };
+		BC83459C193FD913002CAD60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83459B193FD913002CAD60 /* Foundation.framework */; };
+		BC83459E193FD913002CAD60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83459D193FD913002CAD60 /* CoreGraphics.framework */; };
+		BC8345A0193FD913002CAD60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83459F193FD913002CAD60 /* UIKit.framework */; };
+		BC8345A6193FD913002CAD60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC8345A4193FD913002CAD60 /* InfoPlist.strings */; };
+		BC8345A8193FD913002CAD60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8345A7193FD913002CAD60 /* main.m */; };
+		BC8345AC193FD913002CAD60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8345AB193FD913002CAD60 /* AppDelegate.m */; };
+		BC8345AF193FD913002CAD60 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8345AD193FD913002CAD60 /* Main_iPhone.storyboard */; };
+		BC8345B2193FD913002CAD60 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8345B0193FD913002CAD60 /* Main_iPad.storyboard */; };
+		BC8345B5193FD913002CAD60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8345B4193FD913002CAD60 /* ViewController.m */; };
+		BC8345B7193FD913002CAD60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8345B6193FD913002CAD60 /* Images.xcassets */; };
+		BC8345BE193FD913002CAD60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8345BD193FD913002CAD60 /* XCTest.framework */; };
+		BC8345BF193FD913002CAD60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83459B193FD913002CAD60 /* Foundation.framework */; };
+		BC8345C0193FD913002CAD60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83459F193FD913002CAD60 /* UIKit.framework */; };
+		BC8345C8193FD913002CAD60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC8345C6193FD913002CAD60 /* InfoPlist.strings */; };
+		BC8345CA193FD913002CAD60 /* LKTextExpanderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8345C9193FD913002CAD60 /* LKTextExpanderDemoTests.m */; };
+		BC8345DA193FDB8B002CAD60 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8345D9193FDB8B002CAD60 /* AudioToolbox.framework */; };
+		BC8345DC193FDB99002CAD60 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8345DB193FDB99002CAD60 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC8345C1193FD913002CAD60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC834590193FD913002CAD60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC834597193FD913002CAD60;
+			remoteInfo = LKTextExpanderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03283825B4054B62BA7D3E74 /* Pods-LKTextExpanderDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKTextExpanderDemo.xcconfig"; path = "Pods/Pods-LKTextExpanderDemo.xcconfig"; sourceTree = "<group>"; };
+		7EE0D6469E434B6C8131D7F6 /* libPods-LKTextExpanderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKTextExpanderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC834598193FD913002CAD60 /* LKTextExpanderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKTextExpanderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC83459B193FD913002CAD60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC83459D193FD913002CAD60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC83459F193FD913002CAD60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC8345A3193FD913002CAD60 /* LKTextExpanderDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKTextExpanderDemo-Info.plist"; sourceTree = "<group>"; };
+		BC8345A5193FD913002CAD60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC8345A7193FD913002CAD60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC8345A9193FD913002CAD60 /* LKTextExpanderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKTextExpanderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BC8345AA193FD913002CAD60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC8345AB193FD913002CAD60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC8345AE193FD913002CAD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BC8345B1193FD913002CAD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BC8345B3193FD913002CAD60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC8345B4193FD913002CAD60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC8345B6193FD913002CAD60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC8345BC193FD913002CAD60 /* LKTextExpanderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKTextExpanderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8345BD193FD913002CAD60 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC8345C5193FD913002CAD60 /* LKTextExpanderDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKTextExpanderDemoTests-Info.plist"; sourceTree = "<group>"; };
+		BC8345C7193FD913002CAD60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC8345C9193FD913002CAD60 /* LKTextExpanderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKTextExpanderDemoTests.m; sourceTree = "<group>"; };
+		BC8345D9193FDB8B002CAD60 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC8345DB193FDB99002CAD60 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC834595193FD913002CAD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8345DC193FDB99002CAD60 /* CoreText.framework in Frameworks */,
+				BC83459E193FD913002CAD60 /* CoreGraphics.framework in Frameworks */,
+				BC8345DA193FDB8B002CAD60 /* AudioToolbox.framework in Frameworks */,
+				BC8345A0193FD913002CAD60 /* UIKit.framework in Frameworks */,
+				BC83459C193FD913002CAD60 /* Foundation.framework in Frameworks */,
+				47CCF55B8B9A4A04A0B097B3 /* libPods-LKTextExpanderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8345B9193FD913002CAD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8345BE193FD913002CAD60 /* XCTest.framework in Frameworks */,
+				BC8345C0193FD913002CAD60 /* UIKit.framework in Frameworks */,
+				BC8345BF193FD913002CAD60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC83458F193FD913002CAD60 = {
+			isa = PBXGroup;
+			children = (
+				BC8345A1193FD913002CAD60 /* LKTextExpanderDemo */,
+				BC8345C3193FD913002CAD60 /* LKTextExpanderDemoTests */,
+				BC83459A193FD913002CAD60 /* Frameworks */,
+				BC834599193FD913002CAD60 /* Products */,
+				03283825B4054B62BA7D3E74 /* Pods-LKTextExpanderDemo.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		BC834599193FD913002CAD60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC834598193FD913002CAD60 /* LKTextExpanderDemo.app */,
+				BC8345BC193FD913002CAD60 /* LKTextExpanderDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC83459A193FD913002CAD60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC8345DB193FDB99002CAD60 /* CoreText.framework */,
+				BC8345D9193FDB8B002CAD60 /* AudioToolbox.framework */,
+				BC83459B193FD913002CAD60 /* Foundation.framework */,
+				BC83459D193FD913002CAD60 /* CoreGraphics.framework */,
+				BC83459F193FD913002CAD60 /* UIKit.framework */,
+				BC8345BD193FD913002CAD60 /* XCTest.framework */,
+				7EE0D6469E434B6C8131D7F6 /* libPods-LKTextExpanderDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC8345A1193FD913002CAD60 /* LKTextExpanderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC8345AA193FD913002CAD60 /* AppDelegate.h */,
+				BC8345AB193FD913002CAD60 /* AppDelegate.m */,
+				BC8345AD193FD913002CAD60 /* Main_iPhone.storyboard */,
+				BC8345B0193FD913002CAD60 /* Main_iPad.storyboard */,
+				BC8345B3193FD913002CAD60 /* ViewController.h */,
+				BC8345B4193FD913002CAD60 /* ViewController.m */,
+				BC8345B6193FD913002CAD60 /* Images.xcassets */,
+				BC8345A2193FD913002CAD60 /* Supporting Files */,
+			);
+			path = LKTextExpanderDemo;
+			sourceTree = "<group>";
+		};
+		BC8345A2193FD913002CAD60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8345A3193FD913002CAD60 /* LKTextExpanderDemo-Info.plist */,
+				BC8345A4193FD913002CAD60 /* InfoPlist.strings */,
+				BC8345A7193FD913002CAD60 /* main.m */,
+				BC8345A9193FD913002CAD60 /* LKTextExpanderDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC8345C3193FD913002CAD60 /* LKTextExpanderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8345C9193FD913002CAD60 /* LKTextExpanderDemoTests.m */,
+				BC8345C4193FD913002CAD60 /* Supporting Files */,
+			);
+			path = LKTextExpanderDemoTests;
+			sourceTree = "<group>";
+		};
+		BC8345C4193FD913002CAD60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8345C5193FD913002CAD60 /* LKTextExpanderDemoTests-Info.plist */,
+				BC8345C6193FD913002CAD60 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC834597193FD913002CAD60 /* LKTextExpanderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8345CD193FD913002CAD60 /* Build configuration list for PBXNativeTarget "LKTextExpanderDemo" */;
+			buildPhases = (
+				24D75EC594BA406DA8083189 /* Check Pods Manifest.lock */,
+				BC834594193FD913002CAD60 /* Sources */,
+				BC834595193FD913002CAD60 /* Frameworks */,
+				BC834596193FD913002CAD60 /* Resources */,
+				D375FF7A153F44159AE3E8F6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKTextExpanderDemo;
+			productName = LKTextExpanderDemo;
+			productReference = BC834598193FD913002CAD60 /* LKTextExpanderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC8345BB193FD913002CAD60 /* LKTextExpanderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8345D0193FD913002CAD60 /* Build configuration list for PBXNativeTarget "LKTextExpanderDemoTests" */;
+			buildPhases = (
+				BC8345B8193FD913002CAD60 /* Sources */,
+				BC8345B9193FD913002CAD60 /* Frameworks */,
+				BC8345BA193FD913002CAD60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8345C2193FD913002CAD60 /* PBXTargetDependency */,
+			);
+			name = LKTextExpanderDemoTests;
+			productName = LKTextExpanderDemoTests;
+			productReference = BC8345BC193FD913002CAD60 /* LKTextExpanderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC834590193FD913002CAD60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lakesoft;
+				TargetAttributes = {
+					BC8345BB193FD913002CAD60 = {
+						TestTargetID = BC834597193FD913002CAD60;
+					};
+				};
+			};
+			buildConfigurationList = BC834593193FD913002CAD60 /* Build configuration list for PBXProject "LKTextExpanderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC83458F193FD913002CAD60;
+			productRefGroup = BC834599193FD913002CAD60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC834597193FD913002CAD60 /* LKTextExpanderDemo */,
+				BC8345BB193FD913002CAD60 /* LKTextExpanderDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC834596193FD913002CAD60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8345B2193FD913002CAD60 /* Main_iPad.storyboard in Resources */,
+				BC8345B7193FD913002CAD60 /* Images.xcassets in Resources */,
+				BC8345AF193FD913002CAD60 /* Main_iPhone.storyboard in Resources */,
+				BC8345A6193FD913002CAD60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8345BA193FD913002CAD60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8345C8193FD913002CAD60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24D75EC594BA406DA8083189 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D375FF7A153F44159AE3E8F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-LKTextExpanderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC834594193FD913002CAD60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8345B5193FD913002CAD60 /* ViewController.m in Sources */,
+				BC8345AC193FD913002CAD60 /* AppDelegate.m in Sources */,
+				BC8345A8193FD913002CAD60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8345B8193FD913002CAD60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8345CA193FD913002CAD60 /* LKTextExpanderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC8345C2193FD913002CAD60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC834597193FD913002CAD60 /* LKTextExpanderDemo */;
+			targetProxy = BC8345C1193FD913002CAD60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC8345A4193FD913002CAD60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8345A5193FD913002CAD60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC8345AD193FD913002CAD60 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8345AE193FD913002CAD60 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BC8345B0193FD913002CAD60 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8345B1193FD913002CAD60 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BC8345C6193FD913002CAD60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8345C7193FD913002CAD60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC8345CB193FD913002CAD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC8345CC193FD913002CAD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC8345CE193FD913002CAD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03283825B4054B62BA7D3E74 /* Pods-LKTextExpanderDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/TextExpanderTouchSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKTextExpanderDemo/LKTextExpanderDemo-Prefix.pch";
+				INFOPLIST_FILE = "LKTextExpanderDemo/LKTextExpanderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC8345CF193FD913002CAD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03283825B4054B62BA7D3E74 /* Pods-LKTextExpanderDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/TextExpanderTouchSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKTextExpanderDemo/LKTextExpanderDemo-Prefix.pch";
+				INFOPLIST_FILE = "LKTextExpanderDemo/LKTextExpanderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC8345D1193FD913002CAD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LKTextExpanderDemo.app/LKTextExpanderDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKTextExpanderDemo/LKTextExpanderDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LKTextExpanderDemoTests/LKTextExpanderDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC8345D2193FD913002CAD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LKTextExpanderDemo.app/LKTextExpanderDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKTextExpanderDemo/LKTextExpanderDemo-Prefix.pch";
+				INFOPLIST_FILE = "LKTextExpanderDemoTests/LKTextExpanderDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC834593193FD913002CAD60 /* Build configuration list for PBXProject "LKTextExpanderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8345CB193FD913002CAD60 /* Debug */,
+				BC8345CC193FD913002CAD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8345CD193FD913002CAD60 /* Build configuration list for PBXNativeTarget "LKTextExpanderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8345CE193FD913002CAD60 /* Debug */,
+				BC8345CF193FD913002CAD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8345D0193FD913002CAD60 /* Build configuration list for PBXNativeTarget "LKTextExpanderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8345D1193FD913002CAD60 /* Debug */,
+				BC8345D2193FD913002CAD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC834590193FD913002CAD60 /* Project object */;
+}
