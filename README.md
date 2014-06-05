@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LKTextExpander
 
 [![Version](https://img.shields.io/cocoapods/v/LKTextExpander.svg?style=flat)](http://cocoadocs.org/docsets/LKTextExpander)
@@ -25,3 +26,9 @@ Hiroshi Hashiguchi, xcatsan@mac.com
 
 LKTextExpander is available under the MIT license. See the LICENSE file for more info.
 
+=======
+LKTextExpander
+==============
+
+TextExpander Wrapper
+>>>>>>> 133bbfd29b81ce7486a824d060ebc257ee2c37a3
