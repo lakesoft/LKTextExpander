@@ -79,4 +79,18 @@
     self.textExpander.nextDelegate = nextDelegate;
 }
 
+static BOOL _expansionEnabled = YES;
+
++ (BOOL)expansionEnabled
+{
+    return _expansionEnabled;
+}
+
++ (void)setExpansionEnabled:(BOOL)expansionEnabled
+{
+    _expansionEnabled = expansionEnabled;
+    SMTEDelegateController.expansionEnabled = expansionEnabled;
+}
+
+
 @end

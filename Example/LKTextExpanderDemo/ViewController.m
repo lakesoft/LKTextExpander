@@ -26,6 +26,9 @@
 - (IBAction)getSnippets:(id)sender {
     [LKTextExpander.sharedInstance getSnippetsWithScheme:@"LKTextExpanderDemo-get-snippets-xc"];
 }
+- (IBAction)changedEnabled:(UISwitch*)sender {
+    LKTextExpander.expansionEnabled = sender.on;
+}
 
 - (void)didReceiveMemoryWarning
 {

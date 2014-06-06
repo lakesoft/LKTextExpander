@@ -14,6 +14,8 @@
 @property (nonatomic, strong, readonly) SMTEDelegateController *textExpander;
 
 + (instancetype)sharedInstance;
++ (void)setExpansionEnabled:(BOOL)expansionEnabled;
++ (BOOL)expansionEnabled;
 
 // update snippets
 - (void)getSnippetsWithScheme:(NSString*)scheme;
@@ -24,5 +26,6 @@
 // for Client
 - (void)setTextView:(UITextView*)textView nextDelegate:(id <UITextViewDelegate>)nextDelegate;
 - (void)setTextField:(UITextField*)textField nextDelegate:(id <UITextFieldDelegate>)nextDelegate;
+
 
 @end

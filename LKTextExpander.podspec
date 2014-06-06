@@ -7,7 +7,7 @@
 Pod::Spec.new do |s|
   s.name             = "LKTextExpander"
 #  s.version          = File.read('VERSION')
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A short description of LKTextExpander."
   s.description      = <<-DESC
                        An optional longer description of LKTextExpander
