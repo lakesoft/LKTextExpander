@@ -16,6 +16,7 @@
 + (instancetype)sharedInstance;
 + (void)setExpansionEnabled:(BOOL)expansionEnabled;
 + (BOOL)expansionEnabled;
++ (BOOL)isInstalled;
 
 // update snippets
 - (void)getSnippetsWithScheme:(NSString*)scheme;

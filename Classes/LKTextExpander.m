@@ -92,5 +92,10 @@ static BOOL _expansionEnabled = YES;
     SMTEDelegateController.expansionEnabled = expansionEnabled;
 }
 
++ (BOOL)isInstalled
+{
+    return SMTEDelegateController.isTextExpanderTouchInstalled;
+}
+
 
 @end
