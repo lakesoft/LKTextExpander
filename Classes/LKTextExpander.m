@@ -70,13 +70,17 @@
 
 - (void)setTextView:(UITextView*)textView nextDelegate:(id <UITextViewDelegate>)nextDelegate
 {
-    textView.delegate = self.textExpander;
-    self.textExpander.nextDelegate = nextDelegate;
+    if (SMTEDelegateController.isTextExpanderTouchInstalled) {
+        textView.delegate = self.textExpander;
+        self.textExpander.nextDelegate = nextDelegate;
+    }
 }
 - (void)setTextField:(UITextField*)textField nextDelegate:(id <UITextFieldDelegate>)nextDelegate
 {
-    textField.delegate = self.textExpander;
-    self.textExpander.nextDelegate = nextDelegate;
+    if (SMTEDelegateController.isTextExpanderTouchInstalled) {
+        textField.delegate = self.textExpander;
+        self.textExpander.nextDelegate = nextDelegate;
+    }
 }
 
 static BOOL _expansionEnabled = YES;
