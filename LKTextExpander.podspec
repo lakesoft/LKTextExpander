@@ -7,7 +7,7 @@
 Pod::Spec.new do |s|
   s.name             = "LKTextExpander"
 #  s.version          = File.read('VERSION')
-  s.version          = "1.0.3"
+  s.version          = "1.1.0"
   s.summary          = "A short description of LKTextExpander."
   s.description      = <<-DESC
                        An optional longer description of LKTextExpander
@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'Classes'
   s.dependency 'TextExpander', '~> 2.3'
+  s.resource = "Resources/LKTextExpander-Resources.bundle"
 
  
 end

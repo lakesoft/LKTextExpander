@@ -18,6 +18,9 @@
 + (BOOL)expansionEnabled;
 + (BOOL)isInstalled;
 
++ (void)setShouldShowResultAlert:(BOOL)shouldShowResultAlert;
++ (BOOL)shouldShowResultAlert;
+
 // update snippets
 - (void)getSnippetsWithScheme:(NSString*)scheme;
 

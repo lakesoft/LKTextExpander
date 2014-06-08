@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  LKTextExpanderDemo
+
+  Created by Hiroshi Hashiguchi on 2014/06/08.
+  Copyright (c) 2014年 lakesoft. All rights reserved.
+*/
+"Alert.NotInstalled" = "TextExpander is not installed";
+"Result.Title" = "TextExpander";
+"Result.FailedURL" = "Failed to handle URL: user canceled: %@, error: %@";
+"Result.UserCancelled" = "User cancelled get snippets";
+"Result.Error" = "Error updating TextExpander snippets: %@";
+"Result.Success" = "Successfully updated TextExpander Snippets";

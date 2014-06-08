@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		47CCF55B8B9A4A04A0B097B3 /* libPods-LKTextExpanderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE0D6469E434B6C8131D7F6 /* libPods-LKTextExpanderDemo.a */; };
+		BC3896D71944806700088A57 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3896D61944806700088A57 /* CoreFoundation.framework */; };
+		BC3896DD1944806700088A57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3896DB1944806700088A57 /* InfoPlist.strings */; };
+		BC3896EA194480E400088A57 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3896EC194480E400088A57 /* Localizable.strings */; };
+		BC3896F419448A1D00088A57 /* LKTextExpander-Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC3896F319448A1D00088A57 /* LKTextExpander-Resources.bundle */; };
 		BC83459C193FD913002CAD60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83459B193FD913002CAD60 /* Foundation.framework */; };
 		BC83459E193FD913002CAD60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83459D193FD913002CAD60 /* CoreGraphics.framework */; };
 		BC8345A0193FD913002CAD60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC83459F193FD913002CAD60 /* UIKit.framework */; };
@@ -28,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BC3896F0194489E700088A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC834590193FD913002CAD60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3896D41944806700088A57;
+			remoteInfo = "LKTextExpander-Resources";
+		};
 		BC8345C1193FD913002CAD60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC834590193FD913002CAD60 /* Project object */;
@@ -40,6 +51,14 @@
 /* Begin PBXFileReference section */
 		03283825B4054B62BA7D3E74 /* Pods-LKTextExpanderDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKTextExpanderDemo.xcconfig"; path = "Pods/Pods-LKTextExpanderDemo.xcconfig"; sourceTree = "<group>"; };
 		7EE0D6469E434B6C8131D7F6 /* libPods-LKTextExpanderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKTextExpanderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3896D51944806700088A57 /* LKTextExpander-Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LKTextExpander-Resources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3896D61944806700088A57 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BC3896DA1944806700088A57 /* LKTextExpander-Resources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKTextExpander-Resources-Info.plist"; sourceTree = "<group>"; };
+		BC3896DC1944806700088A57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3896DE1944806700088A57 /* LKTextExpander-Resources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKTextExpander-Resources-Prefix.pch"; sourceTree = "<group>"; };
+		BC3896EB194480E400088A57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC3896EF1944814F00088A57 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC3896F319448A1D00088A57 /* LKTextExpander-Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "LKTextExpander-Resources.bundle"; sourceTree = "<group>"; };
 		BC834598193FD913002CAD60 /* LKTextExpanderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKTextExpanderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC83459B193FD913002CAD60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC83459D193FD913002CAD60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +84,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BC3896D21944806700088A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3896D71944806700088A57 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC834595193FD913002CAD60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,11 +118,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC3896D81944806700088A57 /* LKTextExpander-Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC3896D91944806700088A57 /* Supporting Files */,
+				BC3896EC194480E400088A57 /* Localizable.strings */,
+			);
+			path = "LKTextExpander-Resources";
+			sourceTree = "<group>";
+		};
+		BC3896D91944806700088A57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3896DA1944806700088A57 /* LKTextExpander-Resources-Info.plist */,
+				BC3896DB1944806700088A57 /* InfoPlist.strings */,
+				BC3896DE1944806700088A57 /* LKTextExpander-Resources-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3896F219448A1D00088A57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC3896F319448A1D00088A57 /* LKTextExpander-Resources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BC83458F193FD913002CAD60 = {
 			isa = PBXGroup;
 			children = (
+				BC3896F219448A1D00088A57 /* Resources */,
 				BC8345A1193FD913002CAD60 /* LKTextExpanderDemo */,
 				BC8345C3193FD913002CAD60 /* LKTextExpanderDemoTests */,
+				BC3896D81944806700088A57 /* LKTextExpander-Resources */,
 				BC83459A193FD913002CAD60 /* Frameworks */,
 				BC834599193FD913002CAD60 /* Products */,
 				03283825B4054B62BA7D3E74 /* Pods-LKTextExpanderDemo.xcconfig */,
@@ -107,6 +163,7 @@
 			children = (
 				BC834598193FD913002CAD60 /* LKTextExpanderDemo.app */,
 				BC8345BC193FD913002CAD60 /* LKTextExpanderDemoTests.xctest */,
+				BC3896D51944806700088A57 /* LKTextExpander-Resources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +178,7 @@
 				BC83459F193FD913002CAD60 /* UIKit.framework */,
 				BC8345BD193FD913002CAD60 /* XCTest.framework */,
 				7EE0D6469E434B6C8131D7F6 /* libPods-LKTextExpanderDemo.a */,
+				BC3896D61944806700088A57 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +230,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BC3896D41944806700088A57 /* LKTextExpander-Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3896E11944806700088A57 /* Build configuration list for PBXNativeTarget "LKTextExpander-Resources" */;
+			buildPhases = (
+				BC3896D11944806700088A57 /* Sources */,
+				BC3896D21944806700088A57 /* Frameworks */,
+				BC3896D31944806700088A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LKTextExpander-Resources";
+			productName = "LKTextExpander-Resources";
+			productReference = BC3896D51944806700088A57 /* LKTextExpander-Resources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		BC834597193FD913002CAD60 /* LKTextExpanderDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC8345CD193FD913002CAD60 /* Build configuration list for PBXNativeTarget "LKTextExpanderDemo" */;
@@ -185,6 +260,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				BC3896F1194489E700088A57 /* PBXTargetDependency */,
 			);
 			name = LKTextExpanderDemo;
 			productName = LKTextExpanderDemo;
@@ -230,6 +306,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = BC83458F193FD913002CAD60;
 			productRefGroup = BC834599193FD913002CAD60 /* Products */;
@@ -238,15 +315,26 @@
 			targets = (
 				BC834597193FD913002CAD60 /* LKTextExpanderDemo */,
 				BC8345BB193FD913002CAD60 /* LKTextExpanderDemoTests */,
+				BC3896D41944806700088A57 /* LKTextExpander-Resources */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BC3896D31944806700088A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3896DD1944806700088A57 /* InfoPlist.strings in Resources */,
+				BC3896EA194480E400088A57 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC834596193FD913002CAD60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3896F419448A1D00088A57 /* LKTextExpander-Resources.bundle in Resources */,
 				BC8345B2193FD913002CAD60 /* Main_iPad.storyboard in Resources */,
 				BC8345B7193FD913002CAD60 /* Images.xcassets in Resources */,
 				BC8345AF193FD913002CAD60 /* Main_iPhone.storyboard in Resources */,
@@ -298,6 +386,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BC3896D11944806700088A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC834594193FD913002CAD60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,6 +414,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BC3896F1194489E700088A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3896D41944806700088A57 /* LKTextExpander-Resources */;
+			targetProxy = BC3896F0194489E700088A57 /* PBXContainerItemProxy */;
+		};
 		BC8345C2193FD913002CAD60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BC834597193FD913002CAD60 /* LKTextExpanderDemo */;
@@ -327,6 +427,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BC3896DB1944806700088A57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3896DC1944806700088A57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC3896EC194480E400088A57 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3896EB194480E400088A57 /* en */,
+				BC3896EF1944814F00088A57 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		BC8345A4193FD913002CAD60 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,6 +479,45 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BC3896DF1944806700088A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = ../Resources;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKTextExpander-Resources/LKTextExpander-Resources-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LKTextExpander-Resources/LKTextExpander-Resources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BC3896E01944806700088A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = ../Resources;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKTextExpander-Resources/LKTextExpander-Resources-Prefix.pch";
+				INFOPLIST_FILE = "LKTextExpander-Resources/LKTextExpander-Resources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		BC8345CB193FD913002CAD60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -507,6 +663,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BC3896E11944806700088A57 /* Build configuration list for PBXNativeTarget "LKTextExpander-Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3896DF1944806700088A57 /* Debug */,
+				BC3896E01944806700088A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		BC834593193FD913002CAD60 /* Build configuration list for PBXProject "LKTextExpanderDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

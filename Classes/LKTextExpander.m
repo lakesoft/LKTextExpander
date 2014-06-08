@@ -34,6 +34,12 @@
     return _sharedInstance;
 }
 
+- (NSString*)_localizedStringWithKey:(NSString*)key
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"LKTextExpander-Resources" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    return NSLocalizedStringFromTableInBundle(key, nil, bundle, nil);
+}
 
 - (void)getSnippetsWithScheme:(NSString *)scheme
 {
@@ -41,10 +47,17 @@
         self.textExpander.getSnippetsScheme = scheme;
         [self.textExpander getSnippets];
     } else {
-        // Note: This only works on the device, not in the Simulator, as the Simulator does
-        // not include the App Store app
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://smilesoftware.com/cgi-bin/redirect.pl?product=tetouch&cmd=itunes"]];
+        [self _showAlertWithMessage:[self _localizedStringWithKey:@"Alert.NotInstalled"]];
     }
+}
+
+- (void)_showAlertWithMessage:(NSString*)message
+{
+    [[[UIAlertView alloc] initWithTitle:[self _localizedStringWithKey:@"Result.Title"]
+                                message:message
+                               delegate:nil
+                      cancelButtonTitle:nil
+                      otherButtonTitles:@"OK", nil] show];
 }
 
 - (BOOL)handleURL:(NSURL *)url
@@ -52,17 +65,20 @@
     if ([self.textExpander.getSnippetsScheme isEqualToString: url.scheme]) {
         NSError *error = nil;
         BOOL cancel = NO;
+        NSString* message = nil;
         if ([self.textExpander handleGetSnippetsURL:url error:&error cancelFlag:&cancel] == NO) {
-            NSLog(@"[LKTextExpander] Failed to handle URL: user canceled: %@, error: %@", cancel ? @"yes" : @"no", error);
+            message = [NSString stringWithFormat:[self _localizedStringWithKey:@"Result.FailedURL"], cancel ? @"yes" : @"no", error];
         } else {
             if (cancel) {
-                NSLog(@"[LKTextExpander] User cancelled get snippets");
+                message = [self _localizedStringWithKey:@"Result.UserCancelled"];
 			} else if (error != nil) {
-				NSLog(@"[LKTextExpander] Error updating TextExpander snippets: %@", error);
+				message = [NSString stringWithFormat:[self _localizedStringWithKey:@"Result.Error"], error];
 	        } else {
-                NSLog(@"[LKTextExpander] Successfully updated TextExpander Snippets");
+                message = [self _localizedStringWithKey:@"Result.Success"];
             }
         }
+        [self _showAlertWithMessage:message];
+        NSLog(@"[LKTextExpander] %@", message);
         return YES;
     }
     return NO;
@@ -100,6 +116,18 @@ static BOOL _expansionEnabled = YES;
 {
     return SMTEDelegateController.isTextExpanderTouchInstalled;
 }
+
+static BOOL _shouldShowResultAlert = YES;
+
++ (void)setShouldShowResultAlert:(BOOL)shouldShowResultAlert
+{
+    _shouldShowResultAlert = shouldShowResultAlert;
+}
++ (BOOL)shouldShowResultAlert
+{
+    return _shouldShowResultAlert;
+}
+
 
 
 @end
