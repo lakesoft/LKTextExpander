@@ -47,17 +47,21 @@
         self.textExpander.getSnippetsScheme = scheme;
         [self.textExpander getSnippets];
     } else {
-        [self _showAlertWithMessage:[self _localizedStringWithKey:@"Alert.NotInstalled"]];
+        NSString* message = [self _localizedStringWithKey:@"Alert.NotInstalled"];
+        [self _showAlertWithMessage:message];
+        NSLog(@"[LKTextExpander] %@", message);
     }
 }
 
 - (void)_showAlertWithMessage:(NSString*)message
 {
-    [[[UIAlertView alloc] initWithTitle:[self _localizedStringWithKey:@"Result.Title"]
-                                message:message
-                               delegate:nil
-                      cancelButtonTitle:nil
-                      otherButtonTitles:@"OK", nil] show];
+    if (self.class.shouldShowResultAlert) {
+        [[[UIAlertView alloc] initWithTitle:[self _localizedStringWithKey:@"Result.Title"]
+                                    message:message
+                                   delegate:nil
+                          cancelButtonTitle:nil
+                          otherButtonTitles:@"OK", nil] show];
+    }
 }
 
 - (BOOL)handleURL:(NSURL *)url
